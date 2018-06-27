@@ -24,6 +24,8 @@
             @yield('content')
         </div>
 
-        @include('commons.footer')
+        
     </body>
+        @include('commons.footer')
+    
 </html>
