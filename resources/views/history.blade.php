@@ -3,10 +3,13 @@
 @section('cover')
 
 <div class="row">
-        <aside class="col-md-6 col-md-offset-6">
+        <span class="text-center col-md-6">
             いいとも
+        </span>
+        <aside class= "col-md-offset-6">
         </aside>
 </div>
+
 
 @endsection
 
