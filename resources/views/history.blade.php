@@ -16,15 +16,17 @@
 
  <ul class="nav nav-tabs">
    <li><a href="/history">年表</a></li>
-   <li><a href="#">ギャラリー</a></li>
+   <li><a href="photos">ギャラリー</a></li>
  </ul>
 
 </span>
 
-</div>
 
 
-<div class='container'>
+@endsection
+
+@section('content')
+
    <ul class="cbp_tmtimeline">
 	<li>
 		<time class="cbp_tmtime" datetime="2018-5-7"><span>May 7</span> </time>
@@ -68,11 +70,10 @@
 	</li>
 </ul>
 </div>
-</div>
 
 
-@endsection
 
-@section('content')
+
+
 
 @endsection

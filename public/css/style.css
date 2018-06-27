@@ -3,7 +3,7 @@
 
 h1{
     font-family:'Kokoro';
-    font-family: 'PMingLiU';
+    
 }
 
 .nav nav-tabs{
@@ -126,7 +126,7 @@ h1{
 	line-height: 40px;
 	-webkit-font-smoothing: antialiased;
 	position: absolute;
-	color: #fff;
+	color: #46a4da;
 	background: #46a4da;
 	border-radius: 50%;
 	box-shadow: 0 0 0 8px #afdcf8;
