@@ -11,8 +11,9 @@
     
     <!--content-->
     <div id="top">
-        <div class="bg" style="visibility: visible;"></div>
-        
+        <div class=" top1">
+        <h1>君が世界を変える</h1>
+        </div>
     </div>
     <div id="links" class="cf">
         <a href="/recruit/graduate/">
