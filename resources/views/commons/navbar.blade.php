@@ -14,7 +14,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/history">軌跡</a></li>
                     <li><a href="#">アクセス</a></li>
-                    <li><a href="#">採用情報</a></li>
+                    <li><a href="/recruit">採用情報</a></li>
                 </ul>
             </div>
         </div>
