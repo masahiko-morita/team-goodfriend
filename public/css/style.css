@@ -1,0 +1,66 @@
+/*recruit pages*/
+#links .banner.banner1{
+    background-image: url(../images/banner_1.jpg);
+}
+
+#links .banner.banner2{
+    background-image: url(../images/banner_2.jpg);
+}
+
+#links .banner.banner3{
+    background-image: url(../images/banner_3.jpg);
+}
+
+#links .banner.banner4{
+    background-image: url(../images/banner_4.jpg);
+}
+
+#links .banner.banner5{
+    background-image: url(../images/banner_5.jpg);
+}
+
+
+#links .banner {
+    width: 100%;
+    max-width: 400px;
+    margin: 15px auto 0;
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    vertical-align: middle;
+    color: yellow;
+}
+
+.fadein.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fadein {
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: all 800ms;
+}
+
+.rButtonWhite {
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: 6px 9px;
+    background-position: 20px center;
+    border-radius: 20px;
+    padding: 0 20px 0 35px;
+    color: yellow;
+}
+
+#links .banner p {
+    font-size: 20px;
+}
+
+.recruit-text{
+    padding-top: 40px;
+}
