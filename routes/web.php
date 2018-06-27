@@ -19,7 +19,6 @@ Route::get('/history', function () {
     return view('history');
 });
 
-<<<<<<< HEAD
 Route::get('/recruit', function () {
     return view('recruit');
 });
@@ -27,6 +26,4 @@ Route::get('/access', function(){
     return view('access');
 });
 
-=======
->>>>>>> ZZ
 
