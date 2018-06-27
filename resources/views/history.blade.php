@@ -4,7 +4,7 @@
 
 <div class="row">
         <span class="text-center col-md-6">
-            いいとも
+         <h1>軌跡</h1>
         </span>
         <aside class= "col-md-offset-6">
         </aside>
