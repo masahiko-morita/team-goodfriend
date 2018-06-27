@@ -26,4 +26,8 @@ Route::get('/access', function(){
     return view('access');
 });
 
+Route::get('/question', function(){
+    return view('question');
+});
+
 
