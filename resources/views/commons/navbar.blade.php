@@ -12,8 +12,9 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">新規登録</a></li>
-                    <li><a href="#">ログイン</a></li>
+                    <li><a href="/history">いいともの軌跡</a></li>
+                    <li><a href="#">アクセス</a></li>
+                    <li><a href="#">採用情報</a></li>
                 </ul>
             </div>
         </div>
