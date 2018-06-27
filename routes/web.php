@@ -19,6 +19,9 @@ Route::get('/history', function () {
     return view('history');
 });
 
+Route::get('/recruit', function () {
+    return view('recruit');
+});
 Route::get('/access', function(){
     return view('access');
 });
