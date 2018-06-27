@@ -2,13 +2,28 @@
 
 @section('cover')
 
+<div class='container'>
 <div class="row">
-        <span class="text-center col-md-6">
+        <span class="text-center">
          <h1>軌跡　2018～</h1>
         </span>
         <aside class= "col-md-offset-6">
         </aside>
+        
 </div>
+
+<span class="text-center">
+
+ <ul class="nav nav-tabs">
+   <li><a href="/history">年表</a></li>
+   <li><a href="#">ギャラリー</a></li>
+ </ul>
+
+</span>
+
+</div>
+
+
 <div class='container'>
    <ul class="cbp_tmtimeline">
 	<li>
@@ -52,6 +67,7 @@
 		</div>
 	</li>
 </ul>
+</div>
 </div>
 
 
