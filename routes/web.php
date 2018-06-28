@@ -19,8 +19,20 @@ Route::get('/history', function () {
     return view('history');
 });
 
+Route::get('/photos', function () {
+    return view('photos');
+});
+
+
+Route::get('/recruit', function () {
+    return view('recruit');
+});
 Route::get('/access', function(){
     return view('access');
+});
+
+Route::get('/question', function(){
+    return view('question');
 });
 
 
