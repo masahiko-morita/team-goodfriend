@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*アクセスのCSS*/
+
+body {
+    background: #f2f2f2;
+    }
+    
+.topic{
+    text-align: center;
+}
+
+
+.access_box {
+    margin-bottom: 45px;
+}
+
+.access_info_block, .recruit_info_block {
+    overflow: hidden;
+    width: calc(100% - 40px);
+    margin: auto;
+}
+ .access_order_time.sub_txt{margin-bottom:10px !important}
+
+
+
