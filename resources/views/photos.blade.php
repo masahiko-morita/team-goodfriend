@@ -5,7 +5,7 @@
 <div class='container'>
 <div class="row">
         <span class="text-center">
-         <h1>軌跡　2018～</h1>
+         <h1>Gallery</h1>
         </span>
         <aside class= "col-md-offset-6">
         </aside>
@@ -27,10 +27,14 @@
 
 @section('content')
 <div class='container'>
-    <ul>
+    <div class='text-center'>
+      <p><br>*無断転用はお控えください</p>
+    </div>
+    
         
-       <li><img class="logo" src="{{ secure_asset('images/negi.jpg') }}" alt="negi"></li>
-</ul>
+       <img class="logo" src="{{ secure_asset('images/negi.jpg') }}" alt="negi">
+       <img class="logo" src="{{ secure_asset('images/karaage.jpg') }}" alt="karaage">
+       
 
 
 

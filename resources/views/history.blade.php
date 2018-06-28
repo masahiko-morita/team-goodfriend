@@ -41,7 +41,7 @@
 		<div class="cbp_tmicon cbp_tmicon-screen"></div>
 		<div class="cbp_tmlabel">
 			<h2>ちゃきおの涙</h2>
-			<p>Sprint1の初めてのRetrospectiveの日、これまでの不安が爆発しちゃきおが泣いた。メンバーたちは彼女の思いを汲めなかったことを反省しチームとしての自覚を持ち始めた。</p>
+			<p>Sprint1初めてのRetrospectiveの日、これまでの不安が爆発しちゃきおが泣いた。メンバーたちは彼女の思いを汲めなかったことを反省しチームとしての自覚を持ち始めた。</p>
 		</div>
 	</li>
 	<li>

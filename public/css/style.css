@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/earlyaccess/kokoro.css);
 
+.container{
+	font-family: Kokoro;
+}
+
 h1{
     font-family:'Kokoro';
     
