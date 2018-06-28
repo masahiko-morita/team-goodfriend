@@ -17,15 +17,17 @@
 
  <ul class="nav nav-tabs">
    <li><a href="/history">年表</a></li>
-   <li><a href="#">ギャラリー</a></li>
+   <li><a href="photos">ギャラリー</a></li>
  </ul>
 
 </span>
 
-</div>
 
 
-<div class='container'>
+@endsection
+
+@section('content')
+
    <ul class="cbp_tmtimeline">
 	<li>
 		<time class="cbp_tmtime" datetime="2018-5-7"><span>May 7</span> </time>
@@ -40,7 +42,7 @@
 		<div class="cbp_tmicon cbp_tmicon-screen"></div>
 		<div class="cbp_tmlabel">
 			<h2>ちゃきおの涙</h2>
-			<p>Sprint1の初めてのRetrospectiveの日、これまでの不安が爆発しちゃきおが泣いた。メンバーたちは彼女の思いを汲めなかったことを反省しチームとしての自覚を持ち始めた。</p>
+			<p>Sprint1初めてのRetrospectiveの日、これまでの不安が爆発しちゃきおが泣いた。メンバーたちは彼女の思いを汲めなかったことを反省しチームとしての自覚を持ち始めた。</p>
 		</div>
 	</li>
 	<li>
@@ -69,6 +71,8 @@
 	</li>
 </ul>
 </div>
+<<<<<<< HEAD
+=======
 =======
 <div class="row">
         <span class="text-center col-md-6">
@@ -78,10 +82,11 @@
         </aside>
 >>>>>>> ZZ
 </div>
+>>>>>>> 6437609da1a93ded5221e349677feb666fe1e843
 
 
-@endsection
 
-@section('content')
+
+
 
 @endsection

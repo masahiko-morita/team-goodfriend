@@ -19,6 +19,11 @@ Route::get('/history', function () {
     return view('history');
 });
 
+Route::get('/photos', function () {
+    return view('photos');
+});
+
+
 Route::get('/recruit', function () {
     return view('recruit');
 });
