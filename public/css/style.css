@@ -1,3 +1,62 @@
+
+
+/*アクセスのCSS*/
+
+body {
+   
+    }
+    
+.row{
+     background: linear-gradient(to bottom, #FFF5EE 0%, #fff 100%);
+}
+    
+.b{
+    font-size: larger;
+   }
+    
+.topic{
+    text-align: center;
+     
+}
+
+.syozai{
+    font-size: 40px;
+    border-bottom: solid 3px #00CCFF;
+    margin-bottom: 60px;
+    padding: 30px 0;
+    text-align: center;
+    border: none;
+    background: #252526;
+    color: #FF9872;
+
+}
+
+.access_box {
+    margin-bottom: 45px;
+   }
+
+.access_info_block, .recruit_info_block {
+    overflow: hidden;
+    width: calc(100% - 40px);
+    margin: auto;
+}
+ .access_order_time.sub_txt{margin-bottom:10px !important}
+ 
+ .access_order_time{
+     background: #FFFFDD;
+     color: #fff;
+     display: inline-block;
+     }
+     
+.access_box_ttl{
+    color:orange;
+    text-decoration : underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
 /*recruit pages*/
 #links .banner.banner1{
     background-image: url(../images/banner_1.jpg);
