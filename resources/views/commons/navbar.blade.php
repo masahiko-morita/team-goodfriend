@@ -12,6 +12,7 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/rinen">企業理念</a></li>
                     <li><a href="/history">軌跡</a></li>
                     <li><a href="/recruit">採用情報</a></li>
                     <li><a href="/access">アクセス</a></li>
@@ -20,4 +21,4 @@
             </div>
         </div>
     </nav>
-</header>
+</header> 
