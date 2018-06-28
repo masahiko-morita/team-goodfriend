@@ -20,14 +20,18 @@
  
 }
 
+#links .banner.banner6{
+    background-image: url(../images/banner_6.jpg);
+ 
+}
+
 #top .top1{
-    background-image: url(../images/recruit_toppage.jpg);
+    background-image: url(../images/recruitToppage.png);
 	width: 100%;
-    max-width: 1000px;
     margin: 15px 50px;
-    height: 400px;
-    background-size: cover;
-    background-position: bottom;
+    height: 580px;
+    max-height: 600px;
+    /*background-size: cover;*/
     text-align: center;
     vertical-align: middle;
     color: white;
@@ -42,9 +46,9 @@
 
 #links .banner {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     margin: 15px 70px;
-    height: 400px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -84,9 +88,60 @@
 }
 
 .recruit-text{
-    padding-top: 120px;
+    padding-top: 50px;
 }
 
+
+/*新卒採用ページ*/
+
+/*.endLoadingMask .js-slideUp.is-view, .startMaskOut .js-slideUp.is-view {*/
+/*    opacity: 1;*/
+/*    -webkit-transform: translateY(0);*/
+/*    -ms-transform: translateY(0);*/
+/*    transform: translateY(0);*/
+/*}*/
+/*.recruitmentDetailGuideline_list {*/
+/*    display: -webkit-box;*/
+/*    display: -webkit-flex;*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -webkit-flex-wrap: wrap;*/
+/*    -ms-flex-wrap: wrap;*/
+/*    flex-wrap: wrap;*/
+/*    line-height: 2;*/
+/*}*/
+/*.js-slideUp {*/
+/*    opacity: 0;*/
+/*    -webkit-transition-property: opacity transform;*/
+/*    transition-property: opacity transform;*/
+    /* -webkit-transition-duration: 1s; */
+    /* transition-duration: 1s; */
+    /* -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1); */
+    /* transition-timing-function: cubic-bezier(.215,.61,.355,1); */
+    /* -webkit-transform: translateY(50px); */
+/*    -ms-transform: translateY(50px);*/
+    /* transform: translateY(50px); */
+/*    border: 0;*/
+/*    background: 0 0;*/
+/*    font-size: 100%;*/
+/*    vertical-align: baseline;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    outline: 0;*/
+/*    -webkit-text-size-adjust: 100%;*/
+/*    -ms-text-size-adjust: 100%;*/
+   
+/*    -webkit-font-smoothing: antialiased;*/
+/*    -moz-osx-font-smoothing: grayscale;*/
+
+/*}*/
+.div {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/earlyaccess/kokoro.css);

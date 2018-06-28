@@ -16,7 +16,7 @@
         </div>
     </div>
     <div id="links" class="cf">
-        <a href="/recruit/graduate/">
+        <a href="/graduate">
             <div class="banner banner1 fadein scrollin">
                 <div class="recruit-text">
                 <p>新卒採用</p>
@@ -56,12 +56,15 @@
                 </div>
             </div>
         </a>
+        <a href="/recruit/arubaito/">
+            <div class="banner banner6 fadein scrollin">
+                <div class="recruit-text">
+                <p>契約社員採用</p>
+                <div class="rButtonWhite">> 詳しく見る</div>
+                </div>
+            </div>
+        </a>
     </div>
-    
-    
-    
-    
-    
     </div>
 </div>
 

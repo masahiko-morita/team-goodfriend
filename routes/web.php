@@ -20,10 +20,16 @@ Route::get('/history', function () {
 });
 
 Route::get('/recruit', function () {
-    return view('recruit');
+    return view('recruits/recruit');
 });
+
+Route::get('/graduate', function () {
+    return view('/graduate');
+});
+
 Route::get('/access', function(){
     return view('access');
 });
+
 
 
