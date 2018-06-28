@@ -84,29 +84,33 @@ body {
  
 }
 
-#top .top1{
-    background-image: url(../images/recruitToppage.png);
-	width: 100%;
-    margin: 15px 50px;
-    height: 580px;
-    max-height: 600px;
+#top .top1 img{
+/*    background-image: url(../images/recruitToppage.png);*/
+/*    background-repeat: no-repeat;*/
+        width: 45%;
+        height: auto;
+        margin-top: 30px;
+/*    margin: 15px 50px;*/
+/*    height: 580px;*/
+/*    max-height: 600px;*/
     /*background-size: cover;*/
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    float: left;
-}
+/*    text-align: center;*/
+/*    vertical-align: middle;*/
+/*    color: white;*/
+/*    float: left;*/
+} 
 
 #top .top1 h1{
-	padding-top: 150px;
-	font-size: 50px;
-	color: yellow;
+    float: right; 
+	padding-right: 180px;
+	font-size: 40px;
+	color: black;
 }
 
 #links .banner {
     width: 100%;
     max-width: 300px;
-    margin: 15px 70px;
+    margin: 15px 30px;
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -152,6 +156,11 @@ body {
 
 
 /*新卒採用ページ*/
+
+.container .max h1 {
+    text-align: center;
+}
+
 
 /*.endLoadingMask .js-slideUp.is-view, .startMaskOut .js-slideUp.is-view {*/
 /*    opacity: 1;*/
@@ -421,6 +430,7 @@ h1{
 
 .containerphot{
 	margin: 10px 10px 10px 10px;
+}
 /*question.blade.phpに関するcss*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 

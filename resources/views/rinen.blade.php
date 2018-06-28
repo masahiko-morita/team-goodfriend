@@ -11,6 +11,5 @@
 
 @section('content')
 
-aiueo
 
-@endcontent
+@endsection
