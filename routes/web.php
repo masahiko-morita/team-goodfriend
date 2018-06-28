@@ -25,8 +25,13 @@ Route::get('/photos', function () {
 
 
 Route::get('/recruit', function () {
-    return view('recruit');
+    return view('recruits/recruit');
 });
+
+Route::get('/graduate', function () {
+    return view('/graduate');
+});
+
 Route::get('/access', function(){
     return view('access');
 });
@@ -34,5 +39,6 @@ Route::get('/access', function(){
 Route::get('/question', function(){
     return view('question');
 });
+
 
 
