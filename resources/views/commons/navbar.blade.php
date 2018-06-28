@@ -13,8 +13,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/history">軌跡</a></li>
+                    <li><a href="/recruit">採用情報</a></li>
                     <li><a href="/access">アクセス</a></li>
-                    <li><a href="#">採用情報</a></li>
+                    <li><a href="/question">お問い合わせ</a></li>
                 </ul>
             </div>
         </div>

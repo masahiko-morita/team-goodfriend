@@ -24,8 +24,15 @@ Route::get('/photos', function () {
 });
 
 
+Route::get('/recruit', function () {
+    return view('recruit');
+});
 Route::get('/access', function(){
     return view('access');
+});
+
+Route::get('/question', function(){
+    return view('question');
 });
 
 

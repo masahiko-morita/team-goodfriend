@@ -2,6 +2,7 @@
 
 @section('cover')
 
+<<<<<<< HEAD
 <div class='container'>
 <div class="row">
         <span class="text-center">
@@ -70,6 +71,18 @@
 	</li>
 </ul>
 </div>
+<<<<<<< HEAD
+=======
+=======
+<div class="row">
+        <span class="text-center col-md-6">
+         <h1>軌跡</h1>
+        </span>
+        <aside class= "col-md-offset-6">
+        </aside>
+>>>>>>> ZZ
+</div>
+>>>>>>> 6437609da1a93ded5221e349677feb666fe1e843
 
 
 
