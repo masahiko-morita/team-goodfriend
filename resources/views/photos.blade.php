@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.haru')
 
 @section('cover')
 
 <div class='container'>
 <div class="row">
         <span class="text-center">
-         <h1>Gallery</h1>
+         <h1>Quiz</h1>
         </span>
         <aside class= "col-md-offset-6">
         </aside>
@@ -26,18 +26,33 @@
 @endsection
 
 @section('content')
-<div class='container'>
-    <div class='text-center'>
-      <p><br>*無断転用はお控えください</p>
+<div class='container' 'text-center'>
+    <div>
+      <p><br></p>
     </div>
+<div class='quiztitle'>
+<h1>1 いいとも社員が詰んだ時に使う言葉は？</h1><br>
+<form method="get" action="{{url('answer')}}">
     
-        
-       <img class="logo" src="{{ secure_asset('images/negi.jpg') }}" alt="negi">
-       <img class="logo" src="{{ secure_asset('images/karaage.jpg') }}" alt="karaage">
-       
-
-
+   <p><a href="/correct" class='bt-samp36'>おわ　終わりの国</a><br></p>
+   <p><a href="/incorrect" class='bt-samp36'>でんじゃらすじーさん</a><br></p>
+   <p><a href="/incorrect"class='bt-samp36'>カビゴン</a><br></p>
+</form>
 
 </div>
+
+<div class='quiztitle'>
+<h1>2 森田氏のファーストネームは？</h1><br>
+<form method="get" action="{{url('answer')}}">
+    
+    <p><a href="/correct" class='bt-samp36'>まさひこ</a><br></p>
+   <p><a href="/incorrect" class='bt-samp36'>まさたか</a><br></p>
+   <p><a href="/incorrect"class='bt-samp36'>まさくに</a><br></p>
+   <p><a href="/correct" class='bt-samp36'>かずよし</a><br></p>
+</form>
+
 </div>
+
+ 
+
 @endsection

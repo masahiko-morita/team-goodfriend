@@ -11,6 +11,15 @@
 |
 */
 
+
+Route::get('/correct', function () {
+    return view('correct');
+});
+
+Route::get('/incorrect', function () {
+    return view('incorrect');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -22,6 +31,9 @@ Route::get('/history', function () {
 Route::get('/photos', function () {
     return view('photos');
 });
+
+
+
 
 
 Route::get('/recruit', function () {
