@@ -1,62 +1,199 @@
-
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/earlyaccess/kokoro.css);
+@import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
+
+
+.background {
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("images/sunset.jpg");
+  }
+
+.background p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0; 
+  font-size: 70px;
+  line-height: 1;
+  padding: 5px 10px;
+  color:white;
+  font-family: 'Hannari';
+}
+
+.background img {
+  width: 100%;
+  }
+  
+/*アクセスのCSS*/
+
+body {
+   
+    }
+    
+.row{
+     background: linear-gradient(to bottom, #FFF5EE 0%, #fff 100%);
+}
+    
+.b{
+    font-size: larger;
+   }
+    
+.topic{
+    text-align: center;
+     
+}
+
+.syozai{
+    font-size: 40px;
+    border-bottom: solid 3px #00CCFF;
+    margin-bottom: 60px;
+    padding: 30px 0;
+    text-align: center;
+    border: none;
+    background: #252526;
+    color: #FF9872;
+
+}
+
+.access_box {
+    margin-bottom: 45px;
+   }
+
+.access_info_block, .recruit_info_block {
+    overflow: hidden;
+    width: calc(100% - 40px);
+    margin: auto;
+}
+ .access_order_time.sub_txt{margin-bottom:10px !important}
+ 
+ .access_order_time{
+     background: #FFFFDD;
+     color: #fff;
+     display: inline-block;
+     }
+     
+.access_box_ttl{
+    color:orange;
+    text-decoration : underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+>>>>>>> 8e1f1fd1536b312be67f5439185d471626630feb
 
 /*recruit pages*/
 #links .banner.banner1{
     background-image: url(../images/banner_1.jpg);
 }
-
 #links .banner.banner2{
     background-image: url(../images/banner_2.jpg);
 }
-
 #links .banner.banner3{
     background-image: url(../images/banner_3.jpg);
 }
-
 #links .banner.banner4{
     background-image: url(../images/banner_4.jpg);
 }
-
 #links .banner.banner5{
     background-image: url(../images/banner_5.jpg);
  
 }
+#links .banner.banner6{
+    background-image: url(../images/banner_6.jpg);
+ 
+}
 
-#top .top1{
-    background-image: url(../images/recruit_toppage.jpg);
-	width: 100%;
-    max-width: 1000px;
-    margin: 15px 50px;
-    height: 400px;
-    background-size: cover;
-    background-position: bottom;
+#container-recruit{
+    font-family: 'Hannari';
+}
+#container-recruit hr{
+    height: 0.5px;
+    background: #bbb;
+    background-image: -webkit-linear-gradient(left, #eee, #777, #eee);
+    background-image: -moz-linear-gradient(left, #eee, #777, #eee);
+    background-image: -ms-linear-gradient(left, #eee, #777, #eee);
+    background-image: -o-linear-gradient(left, #eee, #777, #eee);
+}
+#container-recruit #recruit-contents h1 {
+    font-size: 40px;
+    margin:30px;
+}
+
+#container-recruit #recruit-top img{
+        width: 45%;
+        height: auto;
+        margin-top: 30px;
+} 
+
+#container-recruit #recruit-message {
+    height:350px;
+    width:500px;
+    float:right;
+    margin-top: 110px;
+    font-family: 'Hannari';
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    position: relative;
+    padding: 0.5em 1.5em;
+    
+}
+#recruit-message:before, #recruit-message:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+#recruit-message:before {left: 10px;}
+#recruit-message:after {right: 10px;}
+#recruit-message h1{
+    margin-top: 30px;
+    font-size: 40px;
     text-align: center;
-    vertical-align: middle;
-    color: white;
-    float: left;
+    font-family: 'Hannari';
+}
+#recruit-message p{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+#recruit-message p a {
+    margin-top:30px;
 }
 
-#top .top1 h1{
-	padding-top: 150px;
-	font-size: 50px;
-	color: yellow;
-}
 
+#links {
+    margin-top:50px;
+}
+#links .banner .recruit-text{
+    color:white;
+    margin-top:55px;
+}
 #links .banner {
     width: 100%;
-    max-width: 400px;
-    margin: 15px 70px;
-    height: 400px;
+    max-width: 300px;
+    margin: 50px 30px;
+    height: 300px;
+    background-color: rgba( 0, 0, 0, 0.10 );
     background-size: cover;
     background-position: center;
     text-align: center;
     vertical-align: middle;
-    color: yellow;
     float: left;
 }
-
+#links .banner p {
+    font-size: 40px;
+}
 
 .fadein.scrollin {
     opacity: 1;
@@ -75,22 +212,98 @@
     line-height: 40px;
     display: inline-block;
     border: 1px solid white;
+    background-color: rgba( 0, 0, 0, 0.10 );
     background-repeat: no-repeat;
     background-size: 6px 9px;
     background-position: 20px center;
     border-radius: 20px;
     padding: 0 20px 0 35px;
-    color: yellow;
-}
-
-#links .banner p {
-    font-size: 40px;
+    color: white;
 }
 
 .recruit-text{
-    padding-top: 120px;
+    padding-top: 50px;
 }
 
+
+/*新卒採用ページ*/
+
+.container .max h1 {
+    text-align: center;
+}
+
+#container-recruit .recruit-detail{
+    margin-top:5px;
+}
+#container-recruit .recruit-detail .Head_title{
+    font-size: 50px;
+    text-align:center;
+}
+#container-recruit .recruit-detail .explain{
+    font-size: 25px;
+    text-align:center;
+}
+#container-recruit .Sub .Sub-title{
+    width:800px;
+    font-size: 30px;
+    text-align:left;
+    margin:20px;
+    margin-left:5px;
+     border-bottom: solid 0.7px black;
+}
+#container-recruit .Sub .explain{
+    font-size: 15px;
+    margin-left:20px;
+    text-align:left;
+}
+/*.endLoadingMask .js-slideUp.is-view, .startMaskOut .js-slideUp.is-view {*/
+/*    opacity: 1;*/
+/*    -webkit-transform: translateY(0);*/
+/*    -ms-transform: translateY(0);*/
+/*    transform: translateY(0);*/
+/*}*/
+/*.recruitmentDetailGuideline_list {*/
+/*    display: -webkit-box;*/
+/*    display: -webkit-flex;*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -webkit-flex-wrap: wrap;*/
+/*    -ms-flex-wrap: wrap;*/
+/*    flex-wrap: wrap;*/
+/*    line-height: 2;*/
+/*}*/
+/*.js-slideUp {*/
+/*    opacity: 0;*/
+/*    -webkit-transition-property: opacity transform;*/
+/*    transition-property: opacity transform;*/
+    /* -webkit-transition-duration: 1s; */
+    /* transition-duration: 1s; */
+    /* -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1); */
+    /* transition-timing-function: cubic-bezier(.215,.61,.355,1); */
+    /* -webkit-transform: translateY(50px); */
+/*    -ms-transform: translateY(50px);*/
+    /* transform: translateY(50px); */
+/*    border: 0;*/
+/*    background: 0 0;*/
+/*    font-size: 100%;*/
+/*    vertical-align: baseline;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    outline: 0;*/
+/*    -webkit-text-size-adjust: 100%;*/
+/*    -ms-text-size-adjust: 100%;*/
+   
+/*    -webkit-font-smoothing: antialiased;*/
+/*    -moz-osx-font-smoothing: grayscale;*/
+
+/*}*/
+.div {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 
 
 .container{
@@ -309,71 +522,9 @@ h1{
 
 .containerphot{
 	margin: 10px 10px 10px 10px;
+}
 /*question.blade.phpに関するcss*/
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
-  background-size: cover;
-  height:100%;
-}
-
-#feedback-page{
-    text-align:center;
-}
-
-#form-main{
-    width:100%;
-    float:left;
-    padding-top:0px;
-}
-
-#form-div {
-    background-color:rgba(72,72,72,0.4);
-    padding-left:35px;
-    padding-right:35px;
-    padding-top:35px;
-    padding-bottom:50px;
-    width: 450px;
-    float: left;
-    left: 50%;
-    position: absolute;
-  margin-top:30px;
-    margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-}
-
-.feedback-input {
-    color:#3c3c3c;
-    font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-    font-size: 18px;
-    border-radius: 0;
-    line-height: 22px;
-    background-color: #fbfbfb;
-    padding: 13px 13px 13px 54px;
-    margin-bottom: 10px;
-    width:100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
-}
-
-.feedback-input:focus{
-    background: #fff;
-    box-shadow: 0;
-    border: 3px solid #3498db;
-    color: #3498db;
-    outline: none;
-  padding: 13px 13px 13px 54px;
-}
-
-.focused{
-    color:#30aed6;
-    border:#30aed6 solid 3px;
-}
 
 /* Icons ---------------------------------- */
 #name{
@@ -478,3 +629,72 @@ input:focus, textarea:focus {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+/*企業理念（だいき）*/
+.philosophy-content{
+	text-align: center;
+}
+
+
+
+/*事業紹介（だいき）*/
+
+.netWorkItem .netWorkItemInner {
+    position: relative;
+    /*padding: 10px 10px 10px 10px;*/
+    background: #f3f5fa;
+    height: 100%;
+}
+.netWorkItem li {
+    padding: 15px;
+    text-align: center;
+}
+
+/*.row {*/
+/*    display: -webkit-box;*/
+/*    display: -webkit-flex;*/
+/*    display: -ms-flexbox;*/
+/*    display: -webkit-box;*/
+/*    display: -webkit-flex;*/
+/*    display: -ms-flexbox;*/
+/*    display: box;*/
+/*    display: flex;*/
+/*    -webkit-flex-wrap: wrap;*/
+/*    -ms-flex-wrap: wrap;*/
+/*    -webkit-box-lines: multiple;*/
+/*    -moz-box-lines: multiple;*/
+/*    -o-box-lines: multiple;*/
+/*    -webkit-flex-wrap: wrap;*/
+/*    -ms-flex-wrap: wrap;*/
+/*    flex-wrap: wrap;*/
+/*    margin-right: -15px;*/
+/*    margin-left: -15px;*/
+/*}*/
+/*ul, ol {*/
+/*    list-style: none;*/
+/*}*/
+/*body, div, pre, p, blockquote, em, strong, form, fieldset, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, table, th, td, embed, object {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    border: 0;*/
+/*    outline: 0;*/
+/*    background: transparent;*/
+/*    font-family: inherit;*/
+/*    font-weight: inherit;*/
+/*    font-style: inherit;*/
+/*    font-size: 100%;*/
+/*    vertical-align: baseline;*/
+/*}*/
+/*user agent stylesheet*/
+/*ul, menu, dir {*/
+/*    display: block;*/
+/*    list-style-type: disc;*/
+/*    -webkit-margin-before: 1em;*/
+/*    -webkit-margin-after: 1em;*/
+/*    -webkit-margin-start: 0px;*/
+/*    -webkit-margin-end: 0px;*/
+/*    -webkit-padding-start: 40px;*/
+/*}*/
+>>>>>>> 8e1f1fd1536b312be67f5439185d471626630feb
