@@ -16,7 +16,7 @@
 
  <ul class="nav nav-tabs">
    <li><a href="/history">年表</a></li>
-   <li><a href="photos">ギャラリー</a></li>
+   <li><a href="photos">いいともQuiz</a></li>
  </ul>
 
 </span>
