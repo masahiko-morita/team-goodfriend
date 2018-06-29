@@ -27,6 +27,9 @@ Route::get('/photos', function () {
     return view('photos');
 });
 
+Route::get('/division-intro', function () {
+    return view('division-intro');
+});
 
 Route::get('/recruit', function () {
     return view('recruits/recruit');
