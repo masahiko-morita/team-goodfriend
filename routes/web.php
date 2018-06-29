@@ -36,6 +36,26 @@ Route::get('/graduate', function () {
     return view('recruits/graduate');
 });
 
+Route::get('/agreement', function () {
+    return view('recruits/agreement');
+});
+
+Route::get('/career', function () {
+    return view('recruits/career');
+});
+
+Route::get('/grobal', function () {
+    return view('recruits/grobal');
+});
+
+Route::get('/mba', function () {
+    return view('recruits/mba');
+});
+
+Route::get('/special', function () {
+    return view('recruits/special');
+});
+
 Route::get('/access', function(){
     return view('access');
 });

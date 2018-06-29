@@ -44,7 +44,7 @@
                 </div>
             </div>
         </a>
-        <a href="/recruit/carrer/">
+        <a href="/career">
             <div class="banner banner2 fadein scrollin">
                 <div class="recruit-text">
                 <p>キャリア採用</p>
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </a>
-        <a href="/recruit/mba/">
+        <a href="/mba">
             <div class="banner banner3 fadein scrollin">
                 <div class="recruit-text">
                 <p>MBA採用</p>
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </a>
-        <a href="/recruit/specialist/">
+        <a href="/special">
             <div class="banner banner4 fadein scrollin">
                 <div class="recruit-text">
                 <p>特殊採用</p>
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </a>
-        <a href="/recruit/goodfriend/">
+        <a href="/grobal">
             <div class="banner banner5 fadein scrollin">
                 <div class="recruit-text">
                 <p>グローバル採用</p>
@@ -76,7 +76,7 @@
                 </div>
             </div>
         </a>
-        <a href="/recruit/arubaito/">
+        <a href="/agreement">
             <div class="banner banner6 fadein scrollin">
                 <div class="recruit-text">
                 <p>契約社員採用</p>
