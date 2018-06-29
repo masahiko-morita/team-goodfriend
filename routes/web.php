@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/rinen', function () {
+    return view('rinen');
+});
+
 Route::get('/history', function () {
     return view('history');
 });
