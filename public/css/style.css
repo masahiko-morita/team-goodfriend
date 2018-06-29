@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/earlyaccess/kokoro.css);
 @import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
 
 
@@ -25,6 +27,7 @@
 
 .background img {
   width: 100%;
+<<<<<<< HEAD
 }
 
 /*navbar*/
@@ -99,6 +102,10 @@
 }
 
 
+=======
+  }
+  
+>>>>>>> ca6227ff2031972118ae93dc5abf120d42b37064
 /*アクセスのCSS*/
 
 body {
@@ -155,6 +162,7 @@ body {
 }
 
 
+>>>>>>> 8e1f1fd1536b312be67f5439185d471626630feb
 
 /*recruit pages*/
 #links .banner.banner1{
@@ -374,8 +382,6 @@ body {
     -webkit-margin-end: 0px;
 }
 
-@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
-@import url(https://fonts.googleapis.com/earlyaccess/kokoro.css);
 
 .container{
 	font-family: Kokoro;
@@ -766,3 +772,11 @@ input:focus, textarea:focus {
 /*    -webkit-margin-end: 0px;*/
 /*    -webkit-padding-start: 40px;*/
 /*}*/
+
+
+
+
+
+.haruna{
+    background-color: white;
+}
