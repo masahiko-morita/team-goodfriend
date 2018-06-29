@@ -80,3 +80,9 @@ a .btn{
     font-size: larger;
 }
 
+
+.col-sm-5{
+  padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4ec4d3;
+}

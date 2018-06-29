@@ -12,6 +12,10 @@
 */
 
 
+Route::get('/members', function () {
+    return view('members');
+});
+
 Route::get('/correct', function () {
     return view('correct');
 });

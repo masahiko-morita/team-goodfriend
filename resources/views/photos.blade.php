@@ -16,6 +16,7 @@
 
  <ul class="nav nav-tabs">
    <li><a href="/history">年表</a></li>
+   <li><a href="/members">役員紹介</a></li>
    <li><a href="photos">いいともQuiz</a></li>
  </ul>
 
@@ -52,6 +53,19 @@
 </form>
 
 </div>
+
+<div class='quiztitle'>
+<h1>3 Kyleの言い方にクセがあったのは？</h1><br>
+<form method="get" action="{{url('answer')}}">
+    
+    <p><a href="/incorrect" class='bt-samp36'>ひろひこ</a><br></p>
+   <p><a href="/incorrect" class='bt-samp36'>へろく</a><br></p>
+   <p><a href="/correct"class='bt-samp36'>ひろし</a><br></p>
+   <p><a href="/incorrect" class='bt-samp36'>ひろみ</a><br></p>
+</form>
+
+</div>
+
 
  
 
