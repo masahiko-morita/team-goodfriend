@@ -629,8 +629,6 @@ input:focus, textarea:focus {
     }
 }
 
-<<<<<<< HEAD
-=======
 
 /*企業理念（だいき）*/
 .philosophy-content{
@@ -697,4 +695,11 @@ input:focus, textarea:focus {
 /*    -webkit-margin-end: 0px;*/
 /*    -webkit-padding-start: 40px;*/
 /*}*/
->>>>>>> 8e1f1fd1536b312be67f5439185d471626630feb
+
+
+
+
+
+.haruna{
+    background-color: white;
+}

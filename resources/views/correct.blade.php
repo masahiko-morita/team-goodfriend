@@ -4,7 +4,7 @@
 <div class='container'>
 <div class='text-center'>
 <h1>正解！</h1>
-<h2>あなたはもういいともメンバーだ</h2>
+<h2>あなたはもういいともメンバーだ</h2><br>
 
 </div>
 </div>

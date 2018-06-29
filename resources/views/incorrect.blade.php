@@ -4,7 +4,7 @@
 <div class='container'>
 <div class='text-center'>
 <h1>残念！</h1>
-<h2>そんなあなたはおわ おわりの国</h2>
+<h2>そんなあなたはおわ おわりの国</h2><br>
 
 </div>
 </div>

@@ -4,9 +4,9 @@
 
 
 <div class='container'>
-<div class="row">
+<div class="rowharuna">
         <span class="text-center">
-         <h1>軌跡　2018～</h1>
+         <h1 class='haruna'>軌跡　2018～</h1>
         </span>
         <aside class= "col-md-offset-6">
         </aside>
