@@ -2,20 +2,40 @@
 
 @section('content')
 
-<main id= "container">
-    <div id="contents" class="max">
+<div id= "container-recruit">
+    <div id="recruit-contents" class="max" >
         <h1 class="rf-title-large">採用情報</h1>
-            
-            
-        </div>
-    
-    <!--content-->
-    <div id="top">
-        <div class=" top1">
-        <h1>君が世界を変える</h1>
-        </div>
     </div>
+    <hr>
+    <!--content-->
+    <span id="recruit-top">
+        <?php
+            $image_rand = array(
+            "images/momo.jpg",
+            "images/mao.jpg",
+            "images/tamo.jpg",
+            "images/chaki.jpg",
+            "images/haruna.jpg",
+            "images/daiki.jpg",
+        );
+ 
+        $image_rand = $image_rand[mt_rand(0, count($image_rand)-1)];
+        echo '<img src="'.$image_rand.'" alt="">';
+        ?>
+    </span>
+    <span id="recruit-message">
+        <h1>君が世界を変える</h1>
+        <p>
+            何が君の幸せ　何をして喜ぶ<br>
+            分からないまま終わる<br>
+            そんなのは嫌だ<br>
+            今を生きることで　熱い心燃える<br>
+            だから君は行くんだ　どこまでも…
+        </p>
+    </span>
+    
     <div id="links" class="cf">
+        <hr>
         <a href="/graduate">
             <div class="banner banner1 fadein scrollin">
                 <div class="recruit-text">
@@ -64,7 +84,6 @@
                 </div>
             </div>
         </a>
-    </div>
     </div>
 </div>
 

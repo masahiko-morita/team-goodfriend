@@ -33,7 +33,7 @@ Route::get('/recruit', function () {
 });
 
 Route::get('/graduate', function () {
-    return view('/graduate');
+    return view('recruits/graduate');
 });
 
 Route::get('/access', function(){
