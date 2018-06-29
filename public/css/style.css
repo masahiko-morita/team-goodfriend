@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/earlyaccess/kokoro.css);
 @import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
 
 
@@ -26,56 +28,7 @@
 .background img {
   width: 100%;
   }
-<<<<<<< HEAD
-
-<header>
-    <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    </button>
-
-                    <span class="sr-only">Toggle navigation</span> 
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-left" href="/"><img src="#" alt="いいともlogo"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/history">軌跡</a></li>
-                    <li><a href="/recruit">採用情報</a></li>
-                    <li><a href="/access">アクセス</a></li>
-                    <li><a href="/question">お問い合わせ</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-
-@extends('layouts.app')
-
-@section('cover')
-        <div class="contents">
-           
-        </div>
-        
-@endsection
-
-@section('content')
-        <div class="background">     
-        <img src= "images/sunset.jpg"width="100%" height="100%" border="0">
-             <p>いいともinc.</p>
-        </div>
-@endsection
-
-
-
-=======
->>>>>>> f5e53680dd688d239a6bfb55745d2d5aba42405d
-
-
+  
 /*アクセスのCSS*/
 
 body {
@@ -132,6 +85,7 @@ body {
 }
 
 
+>>>>>>> 8e1f1fd1536b312be67f5439185d471626630feb
 
 /*recruit pages*/
 #links .banner.banner1{
@@ -351,8 +305,6 @@ body {
     -webkit-margin-end: 0px;
 }
 
-@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
-@import url(https://fonts.googleapis.com/earlyaccess/kokoro.css);
 
 .container{
 	font-family: Kokoro;
@@ -743,3 +695,11 @@ input:focus, textarea:focus {
 /*    -webkit-margin-end: 0px;*/
 /*    -webkit-padding-start: 40px;*/
 /*}*/
+
+
+
+
+
+.haruna{
+    background-color: white;
+}

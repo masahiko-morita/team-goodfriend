@@ -11,6 +11,15 @@
 |
 */
 
+
+Route::get('/correct', function () {
+    return view('correct');
+});
+
+Route::get('/incorrect', function () {
+    return view('incorrect');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -30,6 +39,9 @@ Route::get('/photos', function () {
 Route::get('/division-intro', function () {
     return view('division-intro');
 });
+
+
+
 
 Route::get('/recruit', function () {
     return view('recruits/recruit');
