@@ -27,7 +27,6 @@
 
 .background img {
   width: 100%;
-<<<<<<< HEAD
 }
 
 /*navbar*/
@@ -41,6 +40,39 @@
     text-align: center;
     
 }
+
+/*division-intro*/
+ul li .contents-intro .logo img {
+    height:50px;
+} 
+ul li .contents-intro .address {
+    font-size:20px;
+}
+ul li .contents-intro .description {
+    font-size:15px;
+}
+ul li .contents-intro{
+    height:250px;
+    margin-top:10px;
+    
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+ul li .contents-intro:before, ul li .contents-intro:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+ul li .contents-intro:before {left: 10px;}
+ul li .contents-intro:after {right: 10px;}
+
 
 
 /*rinen*/
