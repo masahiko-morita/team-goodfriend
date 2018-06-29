@@ -15,14 +15,16 @@
         <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
     </head>
     <body>
+        
         @include('commons.navbar')
 
         @yield('cover')
 
         <div class="container">
             @include('commons.error_messages')
-            @yield('content')
+                @yield('content')
         </div>
+        
 
         
     </body>
