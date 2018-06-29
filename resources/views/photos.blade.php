@@ -32,7 +32,7 @@
       <p><br></p>
     </div>
 <div class='quiztitle'>
-<h1>1 いいとも社員が詰んだ時に使う言葉は？</h1><br>
+<h2 title>1 いいとも社員が詰んだ時に使う言葉は？</h2><br>
 <form method="get" action="{{url('answer')}}">
     
    <p><a href="/correct" class='bt-samp36'>おわ　終わりの国</a><br></p>
@@ -43,7 +43,7 @@
 </div>
 
 <div class='quiztitle'>
-<h1>2 森田氏のファーストネームは？</h1><br>
+<h2 title>2 森田氏のファーストネームは？</h2><br>
 <form method="get" action="{{url('answer')}}">
     
     <p><a href="/correct" class='bt-samp36'>まさひこ</a><br></p>
@@ -55,7 +55,7 @@
 </div>
 
 <div class='quiztitle'>
-<h1>3 Kyleの言い方にクセがあったのは？</h1><br>
+<h2 title>3 Kyleの言い方にクセがあったのは？</h2 title><br>
 <form method="get" action="{{url('answer')}}">
     
     <p><a href="/incorrect" class='bt-samp36'>ひろひこ</a><br></p>
