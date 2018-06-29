@@ -27,6 +27,9 @@
 
 .background img {
   width: 100%;
+<<<<<<< HEAD
+  }
+=======
 }
 
 /*navbar*/
@@ -136,6 +139,7 @@ ul li .contents-intro:after {right: 10px;}
 .container-rinen .zenninn img{
 }
 
+>>>>>>> 4b6aef9e88bbc847e5c3b2cf02c1706030a37174
 
 =======
   }
