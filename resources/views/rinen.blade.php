@@ -54,4 +54,4 @@
 @section('content')
 
 
-@endcontent
+@endsection
