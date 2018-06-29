@@ -2,11 +2,11 @@
 
 @section('cover')
 
-<<<<<<< HEAD
+
 <div class='container'>
-<div class="row">
+<div class="rowharuna">
         <span class="text-center">
-         <h1>軌跡　2018～</h1>
+         <h1 class='haruna'>軌跡　2018～</h1>
         </span>
         <aside class= "col-md-offset-6">
         </aside>
@@ -17,7 +17,7 @@
 
  <ul class="nav nav-tabs">
    <li><a href="/history">年表</a></li>
-   <li><a href="photos">ギャラリー</a></li>
+   <li><a href="photos">いいともQuiz</a></li>
  </ul>
 
 </span>
@@ -71,18 +71,7 @@
 	</li>
 </ul>
 </div>
-<<<<<<< HEAD
-=======
-=======
-<div class="row">
-        <span class="text-center col-md-6">
-         <h1>軌跡</h1>
-        </span>
-        <aside class= "col-md-offset-6">
-        </aside>
->>>>>>> ZZ
-</div>
->>>>>>> 6437609da1a93ded5221e349677feb666fe1e843
+
 
 
 
